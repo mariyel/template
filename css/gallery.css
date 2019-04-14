@@ -1,0 +1,128 @@
+@media only screen and (min-width: 1400px) {
+.carouseldiv {
+    margin-top: 250px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.carousel {
+    position: relative;
+    width: 1000px;
+    padding: 10px 40px;
+
+    border-radius: 15px;
+
+    margin: auto;
+    
+    
+
+}
+
+.carouselslide {
+    width: 348px;
+    height: 608px;
+    background-color: #FFFFFF;
+    margin-right: 40px;
+    overflow: hidden;
+    position: relative;
+
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    -webkit-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+}
+
+
+.carousel img {
+    width: 340px;
+    height: 330px;
+    /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
+    display: block;
+}
+
+div.arrow1 {
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background-color: #A7C0E8;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-top: 300px;
+
+    color: #444;
+    display: block;
+    transform: scale(-1, 1);
+}
+
+div.arrow2 {
+    
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background-color: #A7C0E8;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-top: -335px;
+    margin-right: -150px;
+    color: #444;
+    display: block;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover {
+    background: #A7C0E8;
+    cursor: pointer;
+}
+
+.prev {
+    left: 7px;
+}
+
+.next {
+    right: 7px;
+}
+
+.gallery {
+    width: 1000px;
+    height: 628px;
+    margin-left: 40px;
+    overflow: hidden;
+    
+    padding-left: 50px;
+
+}
+
+.gallery ul {
+    height: 130px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    /* remove white-space between inline-block'ed li */
+    /* http://davidwalsh.name/remove-whitespace-inline-block */
+    font-size: 0;
+}
+
+.gallery li {
+    display: inline-block;
+}
+}

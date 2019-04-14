@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+.unsplash {
+  width: 400px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 40px;
+   
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+}
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+@media only screen and (min-width: 540px) {
+    
+    .unsplash {
+  width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 40px;
+        margin-bottom: 20px;
+   
+}
+    
+    @media only screen and (min-width: 720px) {
+        
+         .unsplash {
+  width: 267px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 40px;
+        margin-bottom: 20px;
+    }
+        
+        @media only screen and (min-width: 1366px) {
+        
+         .unsplash {
+  width: 400px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 40px;
+    }
+    
+}

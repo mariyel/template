@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Quicksand;
+  src: url("../fonts/Quicksand/Quicksand-bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
